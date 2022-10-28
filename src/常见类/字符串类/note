@@ -1,0 +1,19 @@
+1、字符串是常量，创建之后不可改变；
+2、字符串字面值存在字符串池中，可以共享。
+3、String s = "hello" 产生一个对象，字符串池中存储；
+4、String s = new String("hello")产生两个对象，堆和池中各存储一个
+
+常用方法：
+    1、length()返回字符串长度；
+    2、char(int index)根据下标获取字符；
+    3、contains(String str)判断是否包含str
+    4、toCharArray()将字符串转化为数组
+    5、indexOf(String str)查找str首次出现的下标
+    6、lastIndexOf()查找在当前字符串中最后一次出现的下标索引
+    7、trim()去掉字符串前后的空格
+    8、toUpperCase()大写
+    9、endWith(String str)是否以str结尾
+    10、replace()
+    11、split()
+    12、equals()   equalsIgnoreCase()忽略大小写的比较
+    13、compareTo()比较大小，比较两个字符串的位置，谁在前谁在后。
