@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3c71470-dc24-4c2b-ad2e-f2ebf27e3177" name="Changes" comment="oop">
-      <change afterPath="$PROJECT_DIR$/src/inter/demo01/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inter/demo01/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inter/demo01/note" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/Demo01/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/Demo01/testStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/Demo02/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/bigdecimal/demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/date/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/date/Demo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/date/Demo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/system/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/可变字符串/StringBufferDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/可变字符串/StringBuilderDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/字符串类/Demo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/字符串类/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/常见类/字符串类/note" afterDir="false" />
+    <list default="true" id="f3c71470-dc24-4c2b-ad2e-f2ebf27e3177" name="Changes" comment="内部类，常用类">
+      <change afterPath="$PROJECT_DIR$/src/hashmap/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashmap/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hashmap/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set_01/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set_01/Demo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set_01/Demo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set_01/Demo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set_01/Demo05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set_01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/set_01/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/Demo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/MyGenericImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/MyGenericMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/MyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/MyInterfaceImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/TestGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/泛型/myGeneric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/集合/LinkedListDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/集合/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/集合/arrayListDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/集合/listDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/集合/listDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/集合/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/集合/vectorDemo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,29 +65,16 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.常见类.system.Demo01">
+  <component name="RunManager" selected="Application.Demo01">
     <configuration name="Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常见类.date.Demo01" />
+      <option name="MAIN_CLASS_NAME" value="hashmap.Demo01" />
       <module name="javalearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="常见类.date.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常见类.date.Demo02" />
-      <module name="javalearn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="常见类.date.*" />
+          <option name="PATTERN" value="hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +83,11 @@
       </method>
     </configuration>
     <configuration name="Demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常见类.date.Demo03" />
+      <option name="MAIN_CLASS_NAME" value="set_01.Demo03" />
       <module name="javalearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="常见类.date.*" />
+          <option name="PATTERN" value="set_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="常见类.system.Demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常见类.system.Demo01" />
+    <configuration name="Demo04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="set_01.Demo04" />
       <module name="javalearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="常见类.system.*" />
+          <option name="PATTERN" value="set_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +108,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="常见类.bigdecimal.demo01" />
+    <configuration name="LinkedListDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="集合.LinkedListDemo01" />
       <module name="javalearn" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="常见类.bigdecimal.*" />
+          <option name="PATTERN" value="集合.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="泛型.TestGeneric" />
+      <module name="javalearn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="泛型.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.常见类.system.Demo01" />
-        <item itemvalue="Application.Demo03" />
-        <item itemvalue="Application.Demo02" />
         <item itemvalue="Application.Demo01" />
-        <item itemvalue="Application.demo01" />
+        <item itemvalue="Application.Demo04" />
+        <item itemvalue="Application.Demo03" />
+        <item itemvalue="Application.TestGeneric" />
+        <item itemvalue="Application.LinkedListDemo01" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +161,11 @@
       <workItem from="1666586622310" duration="3314000" />
       <workItem from="1666610415154" duration="6854000" />
       <workItem from="1666858208586" duration="1851000" />
-      <workItem from="1666945752890" duration="5398000" />
+      <workItem from="1666945752890" duration="6870000" />
+      <workItem from="1667106421911" duration="8145000" />
+      <workItem from="1667189749830" duration="2517000" />
+      <workItem from="1667214239107" duration="5223000" />
+      <workItem from="1667276727785" duration="2499000" />
     </task>
     <task id="LOCAL-00001" summary="oop">
       <created>1666509309783</created>
@@ -162,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666509309783</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="内部类，常用类">
+      <created>1666957562147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666957562147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +200,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="oop" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop" />
+    <MESSAGE value="内部类，常用类" />
+    <option name="LAST_COMMIT_MESSAGE" value="内部类，常用类" />
   </component>
 </project>

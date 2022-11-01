@@ -1,0 +1,32 @@
+什么是集合：
+    概念：对象的容器，定义了对多个对象进行操作的常用方法，可实现数组的功能
+    和数组的区别：
+        （1）数组长度固定，集合长度不固定
+        （2）数组可以存储基本类型和引用类型，集合只能存储引用类型
+    位置：java.util.*
+
+Collection体系集合
+    Collection父接口
+        特点：代表一组任意类型的对象，无序、无下标、不能重复
+        方法：
+            boolean add(Object obj) 添加一个对象
+            boolean addAll(Collection c) 将一个集合的所有对象添加到此集合中
+            void clear() 清空此集合所有对象
+            boolean contains(Object o) 检查此集合是否包含o对象
+            boolean equals(Object o) 比较此集合是否与指定对象相等
+            boolean isEmpty() 判断集合是否为空
+            boolean remove(Object o )在集合中移除对象
+            int size() 返回此集合中的元素个数
+            Object[] toArray() 将此集合转换为数组
+        
+
+
+    List接口的特点：有序、有下标、元素可重复
+        实现类：ArrayList、LinkerList、Vector
+    Set接口的特点 ：无序、无下标、元素不能重复
+        实现类：HashSet、SortedSet
+ArrayList：
+    源码分析：DEFAULT_CAPACITY = 10默认容量大小
+                注意：如果没有向集合中添加任何元素时，容量是0，添加任意一个元素后，容量为10；
+             elementData存放元素
+             size 实际元素个数
